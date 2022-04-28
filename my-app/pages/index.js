@@ -112,10 +112,10 @@ export default function Home() {
       <div className={styles.main}>
         <div>
           <h1 className={styles.title}>
-            Welcome to LearnWeb3 Punks {ens ? ens : address}!
+            Welcome to Web3 ENS Punks {ens ? ens : address}!
           </h1>
           <div className={styles.description}>
-            Its an NFT collection for LearnWeb3 Punks.
+            Ethereum Name Service (ENS) on Testnet
           </div>
           {renderButton()}
         </div>
@@ -125,7 +125,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by LearnWeb3 Punks
+        Made with &#10084; by Odey (Rinkeby Testnet)
       </footer>
     </div>
   );
